@@ -1,2 +1,49 @@
-# KQC7016_Lab1_WebScraping
-Lab 1 Web Scraping for KQC7016 Data Analytics
+ # KQC7016 Lab 1 Web Scraping
+
+## Group Members
+- Nie Jing 25069019
+- Dai Fenfang 25069603
+
+## Lab Description
+This repository contains the files for KQC7016 Lab 1: Web Scraping.
+
+The purpose of this lab is to study the original lab1.py code, understand the function of each part of the code, and modify the code to perform web scraping on another website.
+
+## Website Used
+The modified web scraping program uses:
+
+https://quotes.toscrape.com/
+
+This website was selected because it is designed for web scraping practice and contains structured quote and author information.
+
+## Files Included
+- `Lab1_WebScraping.py` - Python source code for the modified web scraping program.
+- `quotes_with_authors.csv` - Output CSV file containing the extracted quotes and authors.
+- `Lab_Report_1_Web_Scraping.docx` - Lab 1 report.
+
+## Libraries Used
+- requests
+- BeautifulSoup
+- pandas
+
+## Output
+The Python program extracts:
+- Quote
+- Author
+
+The extracted data is saved as:
+
+`quotes_with_authors.csv`
+
+## Ethical Consideration
+Before scraping the website, the robots.txt file should be checked:
+
+https://quotes.toscrape.com/robots.txt
+
+This is important to consider the ethical issue of web scraping.
+
+## How to Run
+Run the Python file using:
+
+```bash
+python Lab1_WebScraping.py

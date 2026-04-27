@@ -1,4 +1,4 @@
- # KQC7016 Lab 1 Web Scraping
+# KQC7016 Lab 1 Web Scraping
 
 ## Group Members
 - Nie Jing 25069019
@@ -17,9 +17,11 @@ https://quotes.toscrape.com/
 This website was selected because it is designed for web scraping practice and contains structured quote and author information.
 
 ## Files Included
-- `Lab1_WebScraping.py` - Python source code for the modified web scraping program.
+- `original_lab1.py` - Original Python file studied and executed for Lab 1.
+- `Lab1_WebScraping.py` - Modified Python source code for scraping quotes and authors.
 - `quotes_with_authors.csv` - Output CSV file containing the extracted quotes and authors.
 - `Lab_Report_1_Web_Scraping.docx` - Lab 1 report.
+- `README.md` - Repository description and file explanation.
 
 ## Libraries Used
 - requests
@@ -43,7 +45,7 @@ https://quotes.toscrape.com/robots.txt
 This is important to consider the ethical issue of web scraping.
 
 ## How to Run
-Run the Python file using:
+Run the original Python file using:
 
 ```bash
-python Lab1_WebScraping.py
+python original_lab1.py
